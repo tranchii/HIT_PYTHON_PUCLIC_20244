@@ -1,0 +1,20 @@
+a = int( input("Nhap a: "))
+b = int( input("Nhap b: "))
+print("a cong b = ", a + b)
+print("a tru b = ", a - b)
+print("a nhan b = ", a * b)
+print("a chia lay nguyen  b = ", a // b)
+print("a mu b = ", a ** b)
+print("a chia du b = ", a % b)
+if a > b:
+    print("a lon hon b")
+elif a == b:
+    print("a bang b")
+else:
+    print("a nho hon b")
+print("a AND b = ", a & b)
+print("a OR b = ", a | b)
+print("a XOR b = ", a ^ b)
+print("Not a == b = ", not(a == b))
+print("a dich phai 1 don vi ", a >> 1)
+print("a dich trai 1 don vi ", a << 1)

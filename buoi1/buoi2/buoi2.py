@@ -25,4 +25,9 @@
 #<statement> doan code chay khi thụt lề
 for i in range(0,10,1):
     print(i, end='')
+a=0
+while a<10 :
+    print(a, end='\t')
+    a+=1   
+    if a==5:
     
