@@ -40,10 +40,20 @@
 # my_list = list()
 # for i in range (10)
 # tính tổng các số chẵn từ 1 đến 1e5 sd  list-comprehension
+inport time 
 my_list = list()
 for i in range (1, 1e5):
     if i%2 == 0
      my_list.append(i)
-print ('sus(my_list)= ', sus(my_list))
+print ('sum (my_list)= ', sum (my_list))
 end_time = time.time()
-print('time ti calulate', end.time -start.time)
+print('time to calulate', end.time -start.time)
+old_list =[1, 2, 3]
+old_list1 =[1 , 2, 3]
+new_list = old_list
+a=input("nhập số nguyên a: ")
+print(a)
+n = int(input('n='))
+a = [ int input(f'a')  for i in range(n)]
+print ("a.sorted",a.sort())   
+print("không có số nguyên nào hợp")
