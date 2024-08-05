@@ -1,0 +1,5 @@
+n = int(input("Nhập số lượng phần tử: "))
+tuple1 = tuple(str(input(f"Nhập phần tử  thứ {i+1} của chuỗi : ")) for i in range(n)) 
+Tuple = tuple(int(x) for x in tuple1)
+tb = sum(Tuple)/len(Tuple)
+print(f"Giá trị trung bình là:",tb)
